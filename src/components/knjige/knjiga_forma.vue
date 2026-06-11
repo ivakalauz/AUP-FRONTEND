@@ -122,8 +122,7 @@ onMounted(async () => {
         :items="autori"
         label="Autor"
         prepend-inner-icon="mdi-account"
-        item-title="ime_prezime"
-        item-value="id"
+        item-title="title"   item-value="value"   
       />
     </v-card-text>
 
